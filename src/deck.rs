@@ -19,7 +19,6 @@ pub fn create_deck() -> Vec<Card> {
 
     for suit in suits {
         for index in 0..values.len() {
-            println!("index is {}", index);
             deck.push(Card {
                 name: String::from(names[index]),
                 value: values[index],
